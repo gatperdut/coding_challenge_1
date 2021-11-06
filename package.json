@@ -9,8 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "mathjs": "^9.4.4",
-    "pixi.js": "^6.1.2"
+    "mathjs": "^9.4.4"
   },
   "devDependencies": {
     "http-server": "^13.0.0"
