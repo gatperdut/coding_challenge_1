@@ -24,7 +24,7 @@ class RenderView {
   draw() {
     this.background();
 
-    // Rest of RenderView#draw.
+    // TODO
   }
 
 }

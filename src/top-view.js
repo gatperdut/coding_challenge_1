@@ -26,7 +26,7 @@ class TopView {
   draw() {
     this.background();
 
-    // Rest of TopView#draw.
+    // TODO
   }
 
 }
