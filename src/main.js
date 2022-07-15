@@ -9,18 +9,13 @@ const renderView = new RenderView(app, topView);
 
 renderView.container.x = 500;
 
+// Keyboard
 function onKeydown(event) {
   console.log(event);
-  if (event.key == 'q') {
-    topView.guy.dir -= 1;
-  }
 
-  if (event.key == 'e') {
-    topView.guy.dir +=1;
-  }
+  // TODO
 }
 
-// Keyboard
 document.addEventListener('keydown', onKeydown);
 
 // Loop
@@ -39,9 +34,9 @@ const animationUpdate = function() {
     return;
   }
 
-  const hits = topView.draw();
+  topView.draw();
 
-  renderView.draw(hits, topView.guy.pos);
+  renderView.draw();
 
   last = now;
 }
