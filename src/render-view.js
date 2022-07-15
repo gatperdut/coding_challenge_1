@@ -17,7 +17,6 @@ class RenderView {
 
   background() {
     this.graphics
-    .lineStyle(0)
     .beginFill(black)
     .drawRect(0, 0, 399, 399)
     .endFill();
