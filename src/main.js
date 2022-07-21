@@ -18,6 +18,18 @@ function onKeydown(event) {
   if (event.key == 'e') {
     topView.guy.dir +=1;
   }
+
+  if (event.key == 'w') {
+    topView.guy.pos[0] += Math.cos(d2r(topView.guy.dir)) * 1;
+
+    topView.guy.pos[1] += Math.sin(d2r(topView.guy.dir)) * 1;
+  }
+
+  if (event.key == 's') {
+    topView.guy.pos[0] -= Math.cos(d2r(topView.guy.dir)) * 1;
+
+    topView.guy.pos[1] -= Math.sin(d2r(topView.guy.dir)) * 1;
+  }
 }
 
 // Keyboard
